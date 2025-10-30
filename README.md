@@ -35,4 +35,4 @@
 ![Top Languages](https://github-readme-stats-omega-weld-16.vercel.app/api/top-langs/?username=pgkim42&layout=compact&theme=tokyonight&count_private=true)
 
 ## GitHub Streak
-![GitHub Streak](https://streak-stats.demolab.com/?user=pgkim42&theme=tokyonight)
+[![GitHub Streak](https://streak-stats.demolab.com/?user=pgkim42)](https://git.io/streak-stats)
