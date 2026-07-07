@@ -1,4 +1,4 @@
-# pgkim42
+# Kim Pyeonggi
 
 Full-stack developer combining Computer Science fundamentals with coding agents like Codex and Claude.
 
