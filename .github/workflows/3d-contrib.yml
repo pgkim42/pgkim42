@@ -19,7 +19,8 @@ jobs:
       - name: Generate 3D contribution SVGs
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # PAT을 사용해 비공개 리포지터리의 기여·언어 통계까지 반영
+          GITHUB_TOKEN: ${{ secrets.GH_STATS_TOKEN || github.token }}
           USERNAME: ${{ github.repository_owner }}
 
       - name: Commit SVGs
