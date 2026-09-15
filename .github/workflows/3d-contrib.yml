@@ -17,7 +17,7 @@ jobs:
       - uses: actions/checkout@v6
 
       - name: Generate 3D contribution SVGs
-        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        uses: yoshi389111/github-profile-3d-contrib@v0.9.3
         env:
           # PAT을 사용해 비공개 리포지터리의 기여·언어 통계까지 반영
           GITHUB_TOKEN: ${{ secrets.GH_STATS_TOKEN || github.token }}
